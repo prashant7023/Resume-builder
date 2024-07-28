@@ -1,0 +1,83 @@
+   
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #242424;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e2e2e;
+}
+
+#resume-output {
+    margin-top: 20px;
+}
+
+#generated-resume {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.work-experience, .project {
+    margin-bottom: 20px;
+}
+
+.project-link {
+    float: right;
+    color: #353535;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
