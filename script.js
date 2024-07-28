@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const addWorkExperienceBtn = document.getElementById('add-work-experience');
     const addProjectBtn = document.getElementById('add-project');
 
-    // Function to add more work experience fields
+    // Function to add work experience fields
     addWorkExperienceBtn.addEventListener('click', function () {
         const workExperienceDiv = document.createElement('div');
         workExperienceDiv.classList.add('work-experience');
@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function () {
         projectsSection.appendChild(projectDiv);
     });
 
-    // Generate resume HTML
     resumeForm.addEventListener('submit', function (e) {
         e.preventDefault();
 
